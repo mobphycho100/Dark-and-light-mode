@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.navbar-dark {
+  background-color: #333333;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  color: white;
+}
+.navbar-light {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  color: #171f46;
+}
+.logo {
+  width: 60px;
+}
+.nav-list-container-dark {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  text-decoration: none;
+  list-style-type: none;
+}
+.nav-list-container-light {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  text-decoration: none;
+  list-style-type: none;
+}
+.nav-list-items-dark {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  list-style-type: none;
+  font-weight: bold;
+}
+.nav-list-items-light {
+  color: #171f46;
+  text-decoration: none;
+  margin-left: 20px;
+  list-style-type: none;
+  font-weight: bold;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.theme-image {
+  width: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-dark {
+    padding: 10px;
+  }
+  .navbar-light {
+    padding: 10px;
+  }
+}
